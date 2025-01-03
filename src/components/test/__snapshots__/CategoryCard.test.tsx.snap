@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryCard matches snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class="block"
+    data-discover="true"
+    href="/products?category=category-1"
+  >
+    <div
+      class="relative overflow-hidden rounded-lg shadow-lg"
+    >
+      <img
+        alt="Category 1"
+        class="w-full h-48 object-contain"
+        loading="lazy"
+        src="path/to/category-1-image.svg"
+      />
+      <div
+        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center"
+      >
+        <h2
+          class="text-white text-xl font-bold"
+        >
+          Category 1
+        </h2>
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;

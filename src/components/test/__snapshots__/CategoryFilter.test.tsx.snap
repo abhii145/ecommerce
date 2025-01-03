@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryFilter Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center space-x-2"
+  >
+    <label
+      class="font-semibold text-gray-700"
+      for="category"
+    >
+      Category:
+    </label>
+    <select
+      aria-label="Select category"
+      class="border border-gray-300 p-2 rounded-md"
+      id="category"
+    >
+      <option
+        value=""
+      >
+        All Categories
+      </option>
+      <option
+        value="electronics"
+      >
+        Electronics
+      </option>
+      <option
+        value="fashion"
+      >
+        Fashion
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

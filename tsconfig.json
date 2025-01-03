@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "target": "es2020" // Ensure target is compatible with `module`
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

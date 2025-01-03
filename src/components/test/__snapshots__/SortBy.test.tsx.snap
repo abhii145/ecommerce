@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortBy Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center space-x-2"
+  >
+    <label
+      class="font-semibold text-gray-700"
+      for="sort"
+    >
+      Sort By:
+    </label>
+    <select
+      aria-label="Sort options"
+      class="border border-gray-300 p-2 rounded-md"
+      id="sort"
+    >
+      <option
+        value="price-asc"
+      >
+        Price: Low to High
+      </option>
+      <option
+        value="price-desc"
+      >
+        Price: High to Low
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

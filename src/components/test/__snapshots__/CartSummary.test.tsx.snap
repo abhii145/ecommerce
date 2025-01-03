@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartSummary matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-white rounded-md px-4 py-6 h-max"
+  >
+    <ul
+      class="text-gray-800 space-y-4"
+    >
+      <li
+        class="flex flex-wrap gap-4 text-sm"
+      >
+        <span>
+          Subtotal
+        </span>
+        <span
+          aria-label="Subtotal amount"
+          class="ml-auto font-bold"
+        >
+          ₹1000
+        </span>
+      </li>
+      <li
+        class="flex flex-wrap gap-4 text-sm"
+      >
+        <span>
+          Tax (18%)
+        </span>
+        <span
+          aria-label="Tax (18%) amount"
+          class="ml-auto font-bold"
+        >
+          ₹180.00
+        </span>
+      </li>
+      <li
+        class="flex flex-wrap gap-4 text-sm"
+      >
+        <span>
+          Shipping
+        </span>
+        <span
+          aria-label="Shipping amount"
+          class="ml-auto font-bold"
+        >
+          ₹0.00
+        </span>
+      </li>
+      <li
+        class="flex flex-wrap gap-4 text-sm"
+      >
+        <span>
+          Discount
+        </span>
+        <span
+          aria-label="Discount amount"
+          class="ml-auto font-bold"
+        >
+          ₹0
+        </span>
+      </li>
+      <hr
+        class="border-gray-300"
+      />
+      <li
+        class="flex flex-wrap gap-4 text-sm font-bold"
+      >
+        <span>
+          Total
+        </span>
+        <span
+          aria-label="Total amount"
+          class="ml-auto"
+        >
+          ₹1180.00
+        </span>
+      </li>
+    </ul>
+    <div
+      class="mt-4 flex items-center space-x-2"
+    >
+      <label
+        class="sr-only"
+        for="promoCode"
+      >
+        Promo Code
+      </label>
+      <input
+        class="text-sm px-4 py-2 w-full border border-gray-300 rounded-md appearance-none focus:outline-none"
+        id="promoCode"
+        placeholder="Promo Code"
+        type="text"
+        value=""
+      />
+      <button
+        class="text-sm px-2 py-2 font-semibold tracking-wide bg-green-400 hover:bg-green-500 text-white rounded-md"
+        type="button"
+      >
+        Apply
+      </button>
+    </div>
+    <div
+      class="mt-4"
+    >
+      <button
+        class="text-sm text-blue-600 hover:text-blue-800"
+        type="button"
+      >
+        Best Coupons for You
+      </button>
+    </div>
+    <div
+      class="mt-8 space-y-2"
+    >
+      <button
+        class="text-sm px-4 py-2.5 w-full font-semibold tracking-wide bg-gray-800 hover:bg-gray-900 text-white rounded-md"
+        type="button"
+      >
+        Proceed to Address
+      </button>
+      <button
+        class="text-sm px-4 py-2.5 w-full font-semibold tracking-wide bg-transparent hover:bg-gray-100 text-gray-800 border border-gray-300 rounded-md"
+        type="button"
+      >
+        <a
+          data-discover="true"
+          href="/products"
+        >
+          Continue Shopping
+        </a>
+      </button>
+    </div>
+    <div
+      class="mt-4 flex flex-wrap justify-center gap-4"
+    >
+      <img
+        alt="American Express"
+        class="w-10 object-contain"
+        loading="lazy"
+        src="test-file-stub"
+      />
+      <img
+        alt="Visa"
+        class="w-10 object-contain"
+        loading="lazy"
+        src="test-file-stub"
+      />
+      <img
+        alt="MasterCard"
+        class="w-10 object-contain"
+        loading="lazy"
+        src="test-file-stub"
+      />
+      <img
+        alt="Google Pay"
+        class="w-10 object-contain"
+        loading="lazy"
+        src="test-file-stub"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

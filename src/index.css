@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-sm-device;
+}
+
+@media (min-width: 768px) {
+  html {
+    @apply text-lg-device;
+  }
+}

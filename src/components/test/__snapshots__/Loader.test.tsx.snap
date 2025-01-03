@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Loading"
+    class="flex justify-center items-center h-screen"
+    role="status"
+  >
+    <div
+      class="border-t-4 border-blue-500 border-solid w-16 h-16 rounded-full animate-spin"
+    />
+    <span
+      class="sr-only"
+    >
+      Loading...
+    </span>
+  </div>
+</DocumentFragment>
+`;

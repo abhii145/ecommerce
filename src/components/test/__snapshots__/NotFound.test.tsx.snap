@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col items-center justify-center min-h-screen"
+    role="main"
+  >
+    <img
+      alt="404 Not Found"
+      class="w-1/2 h-auto"
+      loading="lazy"
+      src="test-file-stub"
+    />
+    <h1
+      class="text-4xl font-bold mb-2"
+    >
+      Page Not Found
+    </h1>
+    <p
+      class="text-lg mb-4"
+    >
+      Sorry, the page you are looking for does not exist.
+    </p>
+    <a
+      aria-label="Go back to Home"
+      class="text-blue-500 underline"
+      data-discover="true"
+      href="/"
+    >
+      Go back to Home
+    </a>
+  </div>
+</DocumentFragment>
+`;

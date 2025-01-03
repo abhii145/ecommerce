@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex-grow mx-4 relative"
+    role="search"
+  >
+    <svg
+      aria-hidden="true"
+      class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+      fill="none"
+      height="1em"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="11"
+        cy="11"
+        r="8"
+      />
+      <line
+        x1="21"
+        x2="16.65"
+        y1="21"
+        y2="16.65"
+      />
+    </svg>
+    <label
+      class="sr-only"
+      for="search-input"
+    >
+      Search
+    </label>
+    <input
+      aria-label="Search"
+      class="w-full pl-10 pr-4 py-2 bg-gray-100 rounded-full focus:outline-none text-sm"
+      data-testid="search-input"
+      id="search-input"
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

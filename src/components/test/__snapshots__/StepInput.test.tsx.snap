@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepInput matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-valuemax="3"
+    aria-valuemin="1"
+    aria-valuenow="1"
+    class="relative flex flex-row gap-x-2 mb-8"
+    role="progressbar"
+  >
+    <div
+      class="flex items-center gap-x-2 shrink basis-0 flex-1 group"
+    >
+      <span
+        class="min-w-7 min-h-7 group inline-flex items-center text-xs align-middle"
+      >
+        <span
+          aria-current="step"
+          class="size-7 flex justify-center items-center shrink-0 font-medium rounded-full group-focus:bg-gray-200 bg-gray-100 text-gray-800 bg-blue-600 text-white"
+        >
+          <span>
+            1
+          </span>
+        </span>
+        <span
+          class="ms-2 text-sm font-medium text-gray-800"
+        >
+          Step 1
+        </span>
+      </span>
+      <div
+        aria-hidden="true"
+        class="w-full h-px flex-1 bg-gray-200"
+      />
+    </div>
+    <div
+      class="flex items-center gap-x-2 shrink basis-0 flex-1 group"
+    >
+      <span
+        class="min-w-7 min-h-7 group inline-flex items-center text-xs align-middle"
+      >
+        <span
+          class="size-7 flex justify-center items-center shrink-0 font-medium rounded-full group-focus:bg-gray-200 bg-gray-100 text-gray-800 "
+        >
+          <span>
+            2
+          </span>
+        </span>
+        <span
+          class="ms-2 text-sm font-medium text-gray-800"
+        >
+          Step 2
+        </span>
+      </span>
+      <div
+        aria-hidden="true"
+        class="w-full h-px flex-1 bg-gray-200"
+      />
+    </div>
+    <div
+      class="flex items-center gap-x-2 shrink basis-0 flex-1 group"
+    >
+      <span
+        class="min-w-7 min-h-7 group inline-flex items-center text-xs align-middle"
+      >
+        <span
+          class="size-7 flex justify-center items-center shrink-0 font-medium rounded-full group-focus:bg-gray-200 bg-gray-100 text-gray-800 "
+        >
+          <span>
+            3
+          </span>
+        </span>
+        <span
+          class="ms-2 text-sm font-medium text-gray-800"
+        >
+          Step 3
+        </span>
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

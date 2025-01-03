@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileMenu component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    aria-label="Mobile Menu"
+    class="md:hidden bg-white shadow-md p-4 space-y-4"
+  >
+    <a
+      class="block hover:text-blue-500 transition-colors"
+      data-discover="true"
+      href="/products"
+    >
+      Products
+    </a>
+    <a
+      class="block hover:text-blue-500 transition-colors"
+      data-discover="true"
+      href="/favourites"
+    >
+      Favourites
+    </a>
+    <a
+      class="block hover:text-blue-500 transition-colors"
+      data-discover="true"
+      href="/orders"
+    >
+      Orders
+    </a>
+    <a
+      class="block hover:text-blue-500 transition-colors"
+      data-discover="true"
+      href="/cart"
+    >
+      Cart
+    </a>
+  </nav>
+</DocumentFragment>
+`;
