@@ -33,7 +33,8 @@ Achieves **90%+ test coverage** with:
 - **Playwright**: End-to-end testing with insightful reports.
 - **Allure Report**: Comprehensive and user-friendly test result reporting.
 
-![alt text](image.png)
+<img width="1434" alt="image" src="https://github.com/user-attachments/assets/25bf8d0f-3052-40e8-b68e-9ee1380481d9" />
+
 
 
 ## Testing Indian Payment Gateways
